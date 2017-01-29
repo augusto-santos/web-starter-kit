@@ -20,7 +20,7 @@ html, body {
   box-shadow: 0 8px 10px rgba(0,0,0,.16);
   //overflow: auto;
   #wrap{
-    padding: 40px 40px 0 40px;
+    padding: 40px 40px 0;
   }
 }
 
@@ -38,9 +38,13 @@ html, body {
     flex-flow: row;
     height: 24px;
     width: 100%;
+    cursor: pointer;
     border-bottom: 1px solid #eee;
     &:first-child{
       border-top: 1px solid #eee;
+    }
+    &:hover,&:active{
+      background-color: rgba(0,0,0,.05);
     }
   }
   td{
@@ -52,19 +56,23 @@ html, body {
     padding-top: 3px;
     padding-bottom: 3px;
     height: 15px;
-    width: 15%;
+    width: 100%;
     vertical-align: middle;
     line-height: 16px;
+    input[type*=checkbox]{
+      margin: 0;
+      vertical-align: middle;
+    }
   }
   .t-col-1{
-    width: 3%;
+    max-width: 3%;
     float: left;
     padding-left: 5px;
   }
   .t-col-2{
     font-size: 12px;
     font-weight: 400;
-    width: 15%;
+    max-width: 15%;
     float: left;
   }
   .t-col-3{
@@ -73,10 +81,13 @@ html, body {
     color: rgba(0,0,0,.8);
     overflow: hidden;
     float: left;
-    width: 75%;
+    max-width: 75%;
   }
   .t-col-4{
-    width: 8%;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(0,0,0,.85);
+    max-width: 8%;
     text-align: end;
   }
 }
