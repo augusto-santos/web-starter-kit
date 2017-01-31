@@ -59,4 +59,13 @@
     max-width: 8%;
     text-align: end;
   }
+  [class*=t-stt]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  .t-stt-green{
+    background-color: rgb(40,160,90);
+  }
 }
