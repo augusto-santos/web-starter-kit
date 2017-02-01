@@ -1,0 +1,21 @@
+{
+  "name": "scroll-teste",
+  "description": "",
+  "main": "",
+  "authors": [
+    "augusto-santos <augusto_santos55@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/augusto-santos/web-starter-kit",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

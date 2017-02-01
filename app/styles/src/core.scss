@@ -26,4 +26,9 @@ html, body {
 .content-inner{
   height: calc(100% - 40px);
   overflow: auto;
+  .load-wrap{
+    display: flex;
+    flex-flow: row;
+    margin: 0 auto;
+  }
 }
